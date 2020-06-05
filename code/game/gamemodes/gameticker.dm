@@ -51,24 +51,13 @@ var/datum/controller/gameticker/ticker
 	var/oursong = file(pick(
 		"sound/music/space.ogg",
 		"sound/music/traitor.ogg",
-		"sound/music/space_oddity.ogg",
 		"sound/music/title1.ogg",
 		"sound/music/title2.ogg",
 		"sound/music/title3.ogg",
 		"sound/music/clown.ogg",
-		"sound/music/robocop.ogg",
-		"sound/music/street_cleaner_robocop.ogg",
-		"sound/music/gaytony.ogg",
-		"sound/music/rocketman.ogg",
 		"sound/music/2525.ogg",
 		"sound/music/moonbaseoddity.ogg",
-		"sound/music/whatisthissong.ogg",
 		"sound/music/space_asshole.ogg",
-		"sound/music/starman.ogg",
-		"sound/music/Lou_Reed_-_Satellite_of_Love.ogg",
-		"sound/music/dawsonschristian.ogg",
-		"sound/music/carmenmirandasghost.ogg",
-		"sound/music/twilight.ogg",
 		))
 
 	if(SNOW_THEME)
