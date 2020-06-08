@@ -115,7 +115,8 @@ var/const/VOX_CHANNEL = 200
 var/const/VOX_DELAY = 600
 var/VOX_AVAILABLE_VOICES = list(
 	"fem" = "Feminine",
-	"mas" = "Masculine"
+	"mas" = "Masculine",
+	"hl1" = "Half-Life"
 );
 
 #ifndef DISABLE_VOX
